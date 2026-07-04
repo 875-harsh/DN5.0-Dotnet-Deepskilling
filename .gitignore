@@ -27,5 +27,3 @@ bld/
 [Ll]ogs/
 
 # Project-specific overrides
-*.docx
-~$*.docx
