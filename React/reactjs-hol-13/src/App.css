@@ -1,0 +1,19 @@
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:40px;
+}
+
+.column{
+    border-left:3px solid green;
+    padding-left:20px;
+    min-width:250px;
+}
+
+h1{
+    font-size:30px;
+}
+
+h2,h3,h4,h5,p{
+    margin:8px 0;
+}

@@ -8,5 +8,15 @@
 *.userosscache
 *.sln.docuser
 
+# Node and React build artifacts
+node_modules/
+build/
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
 # Local tooling and generated files
 .dotnet/
