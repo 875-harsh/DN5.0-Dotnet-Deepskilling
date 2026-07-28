@@ -1,0 +1,27 @@
+<h2>Angular Pipes Demo</h2>
+
+<p><strong>Original Name:</strong> {{ studentName }}</p>
+<p><strong>Uppercase:</strong> {{ studentName | uppercase }}</p>
+<p><strong>Lowercase:</strong> {{ studentName | lowercase }}</p>
+<p><strong>Title Case:</strong> {{ course | titlecase }}</p>
+
+<hr>
+
+<p><strong>Date:</strong> {{ today | date:'fullDate' }}</p>
+<p><strong>Time:</strong> {{ today | date:'shortTime' }}</p>
+
+<hr>
+
+<p><strong>Course Fee:</strong> {{ fee | currency:'INR' }}</p>
+
+<hr>
+
+<p><strong>JSON Pipe:</strong></p>
+
+<pre>
+{{ {
+  name: studentName,
+  course: course,
+  fee: fee
+} | json }}
+</pre>
